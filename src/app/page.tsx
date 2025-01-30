@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Header/>
       <hr className=" opacity-50 "/>
-      <div className=" flex items-center" >
+      <div className=" flex " >
        <Sidebar/>
        <SkillTest/>
 
