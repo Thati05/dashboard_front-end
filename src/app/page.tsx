@@ -12,8 +12,8 @@ export default function Home() {
       <hr className=" opacity-50 "/>
       <div className=" flex w-full  " >
        <Sidebar/>
-       <div className=" flex w-full ">
-        <SkillTest1/>
+       <div className=" flex w-full max-md:flex-col ">
+        <SkillTest1 RankNum={0} PercentileNum={0} CurrentScore={0}/>
         <SkillTest2/>
 
        

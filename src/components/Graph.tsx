@@ -1,10 +1,12 @@
 import { LineChart } from "lucide-react"
+import PieChart from "./PieChart"
 
 interface GraphProps {
   percentile: number
+  score:number
 }
 
-export default function Graph({ percentile }: GraphProps) {
+export default function Graph({ percentile, score }: GraphProps) {
   // Sample data points for the graph
   const points = [
     [0, 10],
@@ -34,7 +36,9 @@ export default function Graph({ percentile }: GraphProps) {
   }
 
   return (
-    <section className="border rounded-lg p-6 bg-white shadow-sm">
+    <section className="border rounded-lg p-6 bg-white shadow-sm flex mt-16 absolute max-md:relative max-md:mt-0 ">
+      <div>
+
       <div className="flex justify-between items-start mb-4">
         <div>
           <h2 className="font-bold text-xl mb-2">Comparison Graph</h2>
@@ -98,6 +102,8 @@ export default function Graph({ percentile }: GraphProps) {
           />
         </svg>
       </div>
+            </div>
+      <PieChart score={score} totalQuestions={15}/>
     </section>
   )
 }

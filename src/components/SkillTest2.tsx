@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 type SyllabusItem = {
  title:string,
  percentage: number,
@@ -69,6 +70,7 @@ export default function SkillTest2() {
 
       </div>
         </div>
+     
     </div>
   )
 }

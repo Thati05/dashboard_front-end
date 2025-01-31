@@ -6,6 +6,7 @@ import HTMLIcon from '@/assets/html-5.png'
 import { useState } from "react"
 import Graph from "./Graph"
 
+
 type Props = {
  RankNum:number,
  PercentileNum: number, //Must be between 0-100
@@ -196,8 +197,10 @@ export default function SkillTest1({RankNum, PercentileNum, CurrentScore}:Props)
 
 <div className=" pt-10">
 
-        <Graph percentile={percentile} />
+        <Graph percentile={percentile} score={score} />
 </div>
+
+
     
     </section>
   )
