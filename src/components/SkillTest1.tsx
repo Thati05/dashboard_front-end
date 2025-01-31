@@ -35,6 +35,7 @@ export default function SkillTest1({RankNum, PercentileNum, CurrentScore}:Props)
   return (
     
     <section className=" max-w-3xl p-6">
+      <h2 className=" mb-6 text-lg text-gray-500">Skill Test</h2>
       
         <div className="flex items-center rounded-lg border bg-white p-6  justify-between mb-6">
           <div className="flex items-center gap-4">
