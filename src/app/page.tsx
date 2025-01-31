@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
-import SkillTest from "@/components/SkillTest";
+import SkillTest from "@/app/sections/SkillTestContent";
 import Image from "next/image";
 
 export default function Home() {

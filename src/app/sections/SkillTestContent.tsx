@@ -1,5 +1,5 @@
 import React from 'react'
-import SkillTest1 from './SkillTest1'
+import SkillTest1 from '../../components/SkillTest1'
 
 
 
@@ -7,7 +7,7 @@ import SkillTest1 from './SkillTest1'
 export default function SkillTest() {
   return (
     <div>
-      <p>Skill Test</p>
+      <p className=' p-6 pb-0 text-gray-500'>Skill Test</p>
        <div>
         <SkillTest1/>
        
